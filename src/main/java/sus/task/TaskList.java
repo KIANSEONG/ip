@@ -22,6 +22,7 @@ public class TaskList {
      */
     public TaskList(List<Task> tasks) {
         this.tasks = tasks;
+        assert tasks != null;
         textUi = new TextUi();
     }
 
